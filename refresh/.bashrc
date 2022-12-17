@@ -18,11 +18,13 @@ alias log="neofetch"
 alias nvimC="nvim ~/.config/nvim/init.vim"
 alias neofetchC="nvim ~/.config/neofetch/config.conf"
 alias admin="htop"
-alias ba="bat"
+alias cat="bat"
 alias ch="cd ~"
+alias ffox="firefox &"
+alias cum="chromium &"
 #This is for Opensuse 
 alias zyup="sudo zypper up"
-
+alias zyin="sudo zypper in"
 
 #alias para mis dotfiles
 alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
