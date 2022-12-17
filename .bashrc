@@ -36,7 +36,7 @@ alias cpdir="cp -r"
 #alias updotfilesS="cp ~/Documents/scripts ~/Documents/nvim/scripts "
 
 #alias para github dotfiles
-##alias githubUP="bash ~/Documents/scripts/github.sh && cd ~/Documents/nvim"
+alias githubadd="bash ~/Documents/scripts/github.sh"
 
 #alias exec scripts
 alias cdS="cd ~/Documents/scripts && l"
