@@ -29,12 +29,15 @@ alias b="cd .."
 alias rd="rm -r"
 alias cpdir="cp -r"
 #alias para mis dotfiles
-alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
-alias updotfilesN="cp ~/.config/neofetch/config.conf ~/Documents/nvim/refresh"
-alias updotfilesB="cp ~/.bashrc ~/Documents/nvim/refresh "
-alias updotfilesS="cp ~/Documents/scripts ~/Documents/nvim/scripts "
+#Desactivados
+#alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
+#alias updotfilesN="cp ~/.config/neofetch/config.conf ~/Documents/nvim/refresh"
+#alias updotfilesB="cp ~/.bashrc ~/Documents/nvim/refresh "
+#alias updotfilesS="cp ~/Documents/scripts ~/Documents/nvim/scripts "
+
 #alias para github dotfiles
-alias githubUP="bash ~/Documents/scripts/github.sh && cd ~/Documents/nvim"
+##alias githubUP="bash ~/Documents/scripts/github.sh && cd ~/Documents/nvim"
+
 #alias exec scripts
 alias cdS="cd ~/Documents/scripts && l"
 alias hii="bash ~/Documents/scripts/Hola.sh"
@@ -42,5 +45,11 @@ alias hii="bash ~/Documents/scripts/Hola.sh"
 alias gitall="bash ~/Documents/scripts/git.sh"
 alias executableS="chmod +x ~/Documents/scripts/*"
 alias exe="bash ~/Documents/scripts/executable.sh"
+
+
+#alias para enlaces symbolic hard
+alias linkS="cp -s"
+alias linkH="cp -l"
+
 #Bienvenida
 neofetch
