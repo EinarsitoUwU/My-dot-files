@@ -27,7 +27,7 @@ alias zyup="sudo zypper up"
 alias zyin="sudo zypper in"
 alias b="cd .."
 alias rd="rm -r"
-alias cpd="cp -r"
+alias cpdir="cp -r"
 #alias para mis dotfiles
 alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
 alias updotfilesN="cp ~/.config/neofetch/config.conf ~/Documents/nvim/refresh"
@@ -38,6 +38,7 @@ alias githubUP="bash ~/Documents/scripts/github.sh && cd ~/Documents/nvim"
 #alias exec scripts
 alias cdS="cd ~/Documents/scripts && l"
 alias hii="bash ~/Documents/scripts/Hola.sh"
+#gitall ejecuta git add . git commit $1 git push, por lo que tienes que tener cuidado
 alias gitall="bash ~/Documents/scripts/git.sh"
 alias executableS="chmod +x ~/Documents/scripts/*"
 alias exe="bash ~/Documents/scripts/executable.sh"
