@@ -2,4 +2,4 @@
 #origin master
 
 
-git remote add origin $1 && git push --set-upstream origin master %%
+git remote add origin $1 && git push --set-upstream origin master 
