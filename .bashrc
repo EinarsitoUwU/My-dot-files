@@ -28,12 +28,6 @@ alias zyin="sudo zypper in"
 alias b="cd .."
 alias rd="rm -r"
 alias cpdir="cp -r"
-#alias para mis dotfiles
-#Desactivados
-#alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
-#alias updotfilesN="cp ~/.config/neofetch/config.conf ~/Documents/nvim/refresh"
-#alias updotfilesB="cp ~/.bashrc ~/Documents/nvim/refresh "
-#alias updotfilesS="cp ~/Documents/scripts ~/Documents/nvim/scripts "
 
 #alias para github dotfiles
 alias githubadd="bash ~/Documents/scripts/github.sh"
