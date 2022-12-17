@@ -25,11 +25,16 @@ alias cum="chromium &"
 #This is for Opensuse 
 alias zyup="sudo zypper up"
 alias zyin="sudo zypper in"
-
+alias b="cd .."
+#Recomendable dejar desactivado
+alias gitp="git add . && git commit -m "update $1 " && git push"
 #alias para mis dotfiles
 alias updotfilesV="cp ~/.config/nvim/init.vim ~/Documents/nvim/refresh"
 alias updotfilesN="cp ~/.config/neofetch/config.conf ~/Documents/nvim/refresh"
 alias updotfilesB="cp ~/.bashrc ~/Documents/nvim/refresh "
 
+#alias exec scripts
+alias cdS="cd ~/Documents/scripts && l"
+alias hii="bash ~/Documents/scripts/Hola.sh"
 #Bienvenida
 neofetch
