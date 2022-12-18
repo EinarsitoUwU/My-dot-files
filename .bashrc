@@ -12,6 +12,7 @@
 
 test -s ~/.alias && . ~/.alias || true
 # Mis alias @Einarssini
+alias cl="clear"
 alias vi="nvim"
 alias bashrc="nvim ~/.bashrc"
 alias log="neofetch"
@@ -45,6 +46,7 @@ alias exe="bash ~/Documents/scripts/executable.sh"
 #alias para enlaces symbolic hard
 alias linkS="cp -s"
 alias linkH="cp -l"
-
+#actualizar linkH de Scripts
+alias upScripts="cp -l ~/Documents/scripts/* ~/Documents/github_dot_files/Scripts"
 #Bienvenida
 neofetch
