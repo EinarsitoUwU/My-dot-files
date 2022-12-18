@@ -62,4 +62,5 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 nnoremap <C-w> :bnext<CR>
 nnoremap <S-q> :bdelete<CR>
 nnoremap <S-l> :nohl<CR>
+nnoremap <C-s> :wq<CR>
 
