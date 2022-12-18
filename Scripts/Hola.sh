@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-echo "Hola humano $*" 
+echo "Hola ser humano $*" 
