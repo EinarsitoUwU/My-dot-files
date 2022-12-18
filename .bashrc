@@ -34,6 +34,7 @@ alias githubadd="bash ~/Documents/scripts/github.sh"
 
 #alias exec scripts
 alias cdS="cd ~/Documents/scripts && l"
+alias cdGIT="cd ~/Documents/github_dot_files"
 alias hii="bash ~/Documents/scripts/Hola.sh"
 #gitall ejecuta git add . git commit $1 git push, por lo que tienes que tener cuidado
 alias gitall="bash ~/Documents/scripts/git.sh"
