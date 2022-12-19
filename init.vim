@@ -20,7 +20,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline-themes'
-
+Plug 'ryanoasis/vim-devicons'
 "Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
@@ -46,7 +46,6 @@ nnoremap <C-l> <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader> <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
 
 " config lightline
 let g:airline = {
